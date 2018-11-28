@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="5077-1534-4a53-bf4e" name="Monsterpocalypse" revision="1" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="5077-1534-4a53-bf4e" name="Monsterpocalypse" revision="2" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -184,12 +184,20 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Defense" characteristicTypeId="122e-2c79-16cb-a501" value=""/>
-            <characteristic name="Abilities" characteristicTypeId="bea6-295c-1961-177e" value=""/>
+            <characteristic name="Defense" characteristicTypeId="122e-2c79-16cb-a501" value="6"/>
+            <characteristic name="Abilities" characteristicTypeId="bea6-295c-1961-177e" value="Fuel Depot"/>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
+      <rules>
+        <rule id="b442-c13b-7069-1544" name="Fuel Depot" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If you are securing this building, allied models gain +1 SPD.</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints>
@@ -256,12 +264,20 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Defense" characteristicTypeId="122e-2c79-16cb-a501" value=""/>
-            <characteristic name="Abilities" characteristicTypeId="bea6-295c-1961-177e" value=""/>
+            <characteristic name="Defense" characteristicTypeId="122e-2c79-16cb-a501" value="7"/>
+            <characteristic name="Abilities" characteristicTypeId="bea6-295c-1961-177e" value="Discount"/>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
+      <rules>
+        <rule id="3b8c-e5f0-d353-4fae" name="Discount" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Once per turn, if you are securing one or more buildings with Discount and spawn a unit, reduce it&apos;s cost by 1.</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints>
@@ -289,12 +305,41 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Defense" characteristicTypeId="122e-2c79-16cb-a501" value=""/>
-            <characteristic name="Abilities" characteristicTypeId="bea6-295c-1961-177e" value=""/>
+            <characteristic name="Defense" characteristicTypeId="122e-2c79-16cb-a501" value="6"/>
+            <characteristic name="Abilities" characteristicTypeId="bea6-295c-1961-177e" value="Electical Node, Incombustible, Blast Radius, Power Producer"/>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
+      <rules>
+        <rule id="6089-86f5-8269-7099" name="Incombustible" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If this building is destroyed, replace it with rubble.</description>
+        </rule>
+        <rule id="7bcf-86e9-6270-ae3d" name="Electical Node" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If a mechanical monster destroys this model with a brawl attack, after the attack is resolved restore one point of health to the monster.</description>
+        </rule>
+        <rule id="a4cf-7a7a-e840-2fe8" name=" Blast Radius" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If this model is destroyed, return all units adjacent to it to their unit reserves.</description>
+        </rule>
+        <rule id="5a5c-29bb-0e6b-1927" name="Power Producer" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If you are securing one or more buildings with Power Producer when you power up, you gain one additional power die.</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints>
@@ -314,20 +359,35 @@
       <entryLinks/>
       <costs/>
     </selectionEntry>
-    <selectionEntry id="19fa-4c93-91bb-d9f9" name="Downtown High Rise " hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="19fa-4c93-91bb-d9f9" name="Downtown High Rise" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="f321-0e0f-a7b5-a213" name="Downtown High Rise " hidden="false" profileTypeId="3a10-d657-fe6d-07b4" profileTypeName="Building">
+        <profile id="f321-0e0f-a7b5-a213" name="Downtown High Rise" hidden="false" profileTypeId="3a10-d657-fe6d-07b4" profileTypeName="Building">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Defense" characteristicTypeId="122e-2c79-16cb-a501" value=""/>
-            <characteristic name="Abilities" characteristicTypeId="bea6-295c-1961-177e" value=""/>
+            <characteristic name="Defense" characteristicTypeId="122e-2c79-16cb-a501" value="6"/>
+            <characteristic name="Abilities" characteristicTypeId="bea6-295c-1961-177e" value="High Occupancy, Security Building"/>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
+      <rules>
+        <rule id="dcf1-80a8-2484-5338" name="High Occupancy" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If a non-mechanical monster destroys this model with a brawl attack, after the attack has been resolved restore one point of health to the monster.</description>
+        </rule>
+        <rule id="0147-450a-5b04-d1f9" name="Security Building" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If you are securing this building, allied units adjacent to this building gain +1 boost die when participating in brawl or blast attacks.</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints>
@@ -395,7 +455,7 @@
       <entryLinks/>
       <costs/>
     </selectionEntry>
-    <selectionEntry id="733b-85b7-7155-bfbf" name="Communications Array " hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="733b-85b7-7155-bfbf" name="Communications Array" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="61d8-e0ce-ea3c-3dce" name="Communications Array" hidden="false" profileTypeId="3a10-d657-fe6d-07b4" profileTypeName="Building">
           <profiles/>
@@ -403,12 +463,27 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Defense" characteristicTypeId="122e-2c79-16cb-a501" value=""/>
-            <characteristic name="Abilities" characteristicTypeId="bea6-295c-1961-177e" value=""/>
+            <characteristic name="Defense" characteristicTypeId="122e-2c79-16cb-a501" value="6"/>
+            <characteristic name="Abilities" characteristicTypeId="bea6-295c-1961-177e" value="Incombustible, Radar Network"/>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
+      <rules>
+        <rule id="ccbf-c4ac-dcc6-21ed" name="Incombustible" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If this building is destroyed, replace it with rubble.</description>
+        </rule>
+        <rule id="7e7e-d7e8-708a-83a8" name="Radar Network" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If you are securing this building, allied models not affected by Radar gain +1 RNG to their blast attacks.</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints>
