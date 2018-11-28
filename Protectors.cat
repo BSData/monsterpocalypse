@@ -1,0 +1,1246 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="e701-36ee-f329-647c" name="Protectors" revision="2" battleScribeVersion="2.01" gameSystemId="5077-1534-4a53-bf4e" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules/>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries/>
+  <selectionEntries>
+    <selectionEntry id="8971-0a12-9e4e-2493" name="Terra Khan" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="9d0a-8670-2a74-5b37" name="Terra Khan (Hyper)" hidden="false" profileTypeId="43e0-b127-f70f-2c38" profileTypeName="Monster">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value="8"/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value="8"/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value="9+6"/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value="R3 7+4 (Explosion)"/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value="7+5"/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value="5"/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value="Blood Rage, Feeding Frenzy, Lightning Attack"/>
+          </characteristics>
+        </profile>
+        <profile id="d809-adce-1e73-369d" name="Terra Khan" hidden="false" profileTypeId="43e0-b127-f70f-2c38" profileTypeName="Monster">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value="6"/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value="8"/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value="8+4 (Munch)"/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value="R5 5+3"/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value="6+4"/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value="11"/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value="Feeding Frenzy, Stampede"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="0acc-6a1b-d788-c56a" name="Explosion" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If this attack hits a unit, all units adjacent to the target unit with a DEF equal to or less than the number of strikes rolled also suffer 1 damage point as a result of this attack. When determining the DEF of adjacent models, add any bonuses to DEF against blast attacks, including cover.</description>
+        </rule>
+        <rule id="e181-964e-2bb7-6634" name="Munch" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If this monster destroys a unit with this attack, after the attack is resolved restore one point of health to this monster.</description>
+        </rule>
+        <rule id="857f-97e8-06f3-f1f6" name="Feeding Frenzy" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When this monster attacks a monster that is adjacent to any faction unit, this monster&apos;s attack does super damage.</description>
+        </rule>
+        <rule id="12fe-2475-b49f-ffd2" name="Stampede" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>While this model is in play, faction units gain +1 SPD.</description>
+        </rule>
+        <rule id="1fcf-1481-3bf8-c719" name="Blood Rage" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>While this model is in play, faction units gain +1 boost die when participating in brawl attacks.</description>
+        </rule>
+        <rule id="8409-9b17-a7cc-738e" name="Lightning Attack" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model can make a brawl attack in addition to any other attack it makes during each of your monster activations.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed12-038b-147e-cd42" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9b81-8459-6fd2-d04f" name="Monster" hidden="false" targetId="c7bf-4083-0efb-c970" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="ce22-341e-f160-3841" name="Spikodon" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="4f22-35f2-f119-48ef" name="Spikodon" hidden="false" profileTypeId="9401-e931-3ab5-8be3" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="af77-0565-0614-27a0" value="4"/>
+            <characteristic name="Defense" characteristicTypeId="89fc-cebd-e4f9-7c13" value="3"/>
+            <characteristic name="Brawl" characteristicTypeId="4e93-b162-e5be-0b88" value="1+0"/>
+            <characteristic name="Blast" characteristicTypeId="34e6-6ce9-549a-7643" value="R4 2+2 (Explosion)"/>
+            <characteristic name="Cost" characteristicTypeId="dba9-63d2-f16f-cc68" value="2"/>
+            <characteristic name="Abilities" characteristicTypeId="1a82-14ec-206c-4db6" value="-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="f6cb-1fee-0542-95a6" name="Explosion" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If this attack hits a unit, all units adjacent to the target unit with a DEF equal to or less than the number of strikes rolled also suffer 1 damage point as a result of this attack. When determining the DEF of adjacent models, add any bonuses to DEF against blast attacks, including cover.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af61-93f6-7bad-366c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="286f-e20d-82a4-f628" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="9e2f-d13a-bd81-24ad" name="Defender X" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="3d4e-f981-f28b-5933" name="Defender X (Hyper)" hidden="false" profileTypeId="43e0-b127-f70f-2c38" profileTypeName="Monster">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value="6 (High Mobility)"/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value="8"/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value="7+5"/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value="R3 7+5 (Beat Back)"/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value="6+4"/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value="5"/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value=" Disruption, Energy Cycle, Mechanical, Safeguard"/>
+          </characteristics>
+        </profile>
+        <profile id="ebc3-abac-28ba-0667" name="Defender X" hidden="false" profileTypeId="43e0-b127-f70f-2c38" profileTypeName="Monster">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value="6 (High Mobility)"/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value="8"/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value="7+4"/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value="R3 7+4"/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value="5+4"/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value="11"/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value="Disruption, Mechanical, Safeguard"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="3a0d-4977-4011-432d" name="Disruption" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Enemy models attacking while within two spaces of this model lose one BD on their attack rolls.</description>
+        </rule>
+        <rule id="66dd-18e4-ec4d-3d6e" name="Mechanical" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This monster is mechanical.</description>
+        </rule>
+        <rule id="c974-fc82-bbd7-b371" name="Safeguard" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If you are securing one or more buildings when you Power Up, you gain one additional PD.</description>
+        </rule>
+        <rule id="637b-d040-d45e-75d8" name="Energy Cycle" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If you roll two or more Action Dice on an attack made by this model and the attack hits an enemy model, after the attack is resolved you can move one AD from your Unit Pool to your Monster Pool.</description>
+        </rule>
+        <rule id="f6c8-0699-cb83-a69c" name="Beat Back" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If this model hits an enemy monster with this attack, after the attack is resolved you can move the monster hit up to two spaces in a straight line in any direction. During this movement, the target monster moves through and collides with buildings, units, and hazards in its path. The target monster stops moving if it collides with another monster.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94aa-9114-8b43-6c2d" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2593-4673-a86c-0c69" name="Monster" hidden="false" targetId="c7bf-4083-0efb-c970" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="71bc-1511-ae9b-6e2a" name="Zor-Maxim" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="e977-a33e-66c4-08ce" name="Zor-Maxim (Hyper)" hidden="false" profileTypeId="43e0-b127-f70f-2c38" profileTypeName="Monster">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value="7 (High Mobility)"/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value="10"/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value="7+5"/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value="R3 6+4"/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value="8+5 (Penetrator)"/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value="5"/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value="Action: Teleport, Energy Cycle, Rapid Fire, Side Step"/>
+          </characteristics>
+        </profile>
+        <profile id="45bf-dec8-6a4f-a289" name="Zor-Maxim" hidden="false" profileTypeId="43e0-b127-f70f-2c38" profileTypeName="Monster">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value="7 (High Mobility)"/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value="9"/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value="7+4"/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value="-"/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value="7+3 (Penetrator)"/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value="10"/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value="Action: Teleport, Side Step"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="6e50-bf8a-bfec-6a51" name="Action: Teleport" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>During this model&apos;s Activation, this model can spend one AD to perform a Teleport action. Either choose an adjacent allied unit and place it adjacent to another allied model with Teleport or choose one allied unit adjacent to another allied model with Teleport and place it adjacent to this model.</description>
+        </rule>
+        <rule id="20fa-c2a3-7e19-501d" name="Rapid Fire" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+        <rule id="b0c8-a56b-83b1-d0f9" name="Energy Cycle" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If you roll two or more Action Dice on an attack made by this model and the attack hits an enemy model, after the attack is resolved you can move one AD from your Unit Pool to your Monster Pool.</description>
+        </rule>
+        <rule id="f1b9-8ff1-b7bf-6e35" name="Side Step" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If this model is missed by an attack, after the attack is resolved this model can advance up to three spaces.</description>
+        </rule>
+        <rule id="57cd-cb84-8d15-dee7" name="Penetrator" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When resolving this attack, the target suffers -1 DEF, to a minimum of 1.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a39c-7960-a6ea-951f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="953d-4ce4-d467-7ec9" name="Monster" hidden="false" targetId="c7bf-4083-0efb-c970" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="0122-a3c0-6a37-3ed3" name="Brontox" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="2f64-3497-b363-7b2a" name="Brontox" hidden="false" profileTypeId="9401-e931-3ab5-8be3" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="af77-0565-0614-27a0" value="4"/>
+            <characteristic name="Defense" characteristicTypeId="89fc-cebd-e4f9-7c13" value="4"/>
+            <characteristic name="Brawl" characteristicTypeId="4e93-b162-e5be-0b88" value="1+1"/>
+            <characteristic name="Blast" characteristicTypeId="34e6-6ce9-549a-7643" value="-"/>
+            <characteristic name="Cost" characteristicTypeId="dba9-63d2-f16f-cc68" value="2"/>
+            <characteristic name="Abilities" characteristicTypeId="1a82-14ec-206c-4db6" value="Action: Nesting, Dig In"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b3f1-3356-d0ac-f10f" name="Dig In" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model gains Cover while it is holding a power zone or negative zone.</description>
+        </rule>
+        <rule id="c83e-bd95-3c48-c245" name="Action: Nesting" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This unit can spend one action die to perform a NEsting action if it is holding a power zone or negative zone during your unit activation. Choose one faction unit from your reserves and place it in play adjacent to this model. The placed model cannot advance this turn.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a380-28b1-5b8e-b093" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="ab2f-8dca-ad84-409d" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="4a09-6ef7-6698-78d9" name="Carnidon" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="1b4c-90c5-99bb-fcb3" name="Carnidon" hidden="false" profileTypeId="9401-e931-3ab5-8be3" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="af77-0565-0614-27a0" value="4"/>
+            <characteristic name="Defense" characteristicTypeId="89fc-cebd-e4f9-7c13" value="3"/>
+            <characteristic name="Brawl" characteristicTypeId="4e93-b162-e5be-0b88" value="2+2"/>
+            <characteristic name="Blast" characteristicTypeId="34e6-6ce9-549a-7643" value="-"/>
+            <characteristic name="Cost" characteristicTypeId="dba9-63d2-f16f-cc68" value="1"/>
+            <characteristic name="Abilities" characteristicTypeId="1a82-14ec-206c-4db6" value="-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3827-8b97-7432-c0e1" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4f03-17fa-9402-3aad" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="1829-b443-005d-00fa" name="Carnidon Elite" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="c397-fcee-2633-beca" name="Carnidon Elite" hidden="false" profileTypeId="9401-e931-3ab5-8be3" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="af77-0565-0614-27a0" value="4"/>
+            <characteristic name="Defense" characteristicTypeId="89fc-cebd-e4f9-7c13" value="3"/>
+            <characteristic name="Brawl" characteristicTypeId="4e93-b162-e5be-0b88" value="2+2"/>
+            <characteristic name="Blast" characteristicTypeId="34e6-6ce9-549a-7643" value="-"/>
+            <characteristic name="Cost" characteristicTypeId="dba9-63d2-f16f-cc68" value="2"/>
+            <characteristic name="Abilities" characteristicTypeId="1a82-14ec-206c-4db6" value="Commander: Carnidon, Flank"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="ab05-249b-5705-8240" name="Commander" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Allied same-named grunt units within two spaces of this unit gain +1 BD when participating in brawl or blast attacks.</description>
+        </rule>
+        <rule id="35e0-6c06-e1e3-57e9" name="Flank" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Enemies within two spaces of this model have their DEF reduced by 1 against brawl attacks made by allied models, to a minimum of 1.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbc5-ca67-a168-819d" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9ed7-536e-2da0-8777" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="6499-a341-2338-42fd" name="Rapitx" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="a8d8-da80-24f5-460a" name="Raptix" hidden="false" profileTypeId="9401-e931-3ab5-8be3" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="af77-0565-0614-27a0" value="6 (High Mobility)"/>
+            <characteristic name="Defense" characteristicTypeId="89fc-cebd-e4f9-7c13" value="2"/>
+            <characteristic name="Brawl" characteristicTypeId="4e93-b162-e5be-0b88" value="1+1"/>
+            <characteristic name="Blast" characteristicTypeId="34e6-6ce9-549a-7643" value="-"/>
+            <characteristic name="Cost" characteristicTypeId="dba9-63d2-f16f-cc68" value="1"/>
+            <characteristic name="Abilities" characteristicTypeId="1a82-14ec-206c-4db6" value="Anti-Air"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="93ed-ad32-2b9c-6f6c" name="Anti-Air" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model gains +1 boost die when participating in brawl or blast attacks targeting a model with Flight.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7050-297e-8cdd-b6d2" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4021-b6c7-2138-5716" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="5d47-b539-41d6-92a8" name="Rapitx Elite" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="b0a7-8e45-1fdf-8099" name="Rapitx Elite" hidden="false" profileTypeId="9401-e931-3ab5-8be3" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="af77-0565-0614-27a0" value="6 (High Mobility)"/>
+            <characteristic name="Defense" characteristicTypeId="89fc-cebd-e4f9-7c13" value="2"/>
+            <characteristic name="Brawl" characteristicTypeId="4e93-b162-e5be-0b88" value="1+2"/>
+            <characteristic name="Blast" characteristicTypeId="34e6-6ce9-549a-7643" value="-"/>
+            <characteristic name="Cost" characteristicTypeId="dba9-63d2-f16f-cc68" value="2"/>
+            <characteristic name="Abilities" characteristicTypeId="1a82-14ec-206c-4db6" value="Anti-Air, Commander: Raptix"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b130-548f-3c07-d144" name="Anti-Air" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model gains +1 boost die when participating in brawl or blast attacks targeting a model with Flight.</description>
+        </rule>
+        <rule id="395f-ea79-bff5-a724" name="Commander" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Allied same-named grunt units within two spaces of this unit gain +1 BD when participating in brawl or blast attacks.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9dbf-ff72-73b6-e2ec" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2b74-69b2-3b5c-8285" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="9906-e647-4412-717c" name="Sun Fighter Elite" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="d9d4-53e2-fa98-d462" name="Sun Fighter Elite" hidden="false" profileTypeId="9401-e931-3ab5-8be3" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="af77-0565-0614-27a0" value="7 (High Mobility)"/>
+            <characteristic name="Defense" characteristicTypeId="89fc-cebd-e4f9-7c13" value="2"/>
+            <characteristic name="Brawl" characteristicTypeId="4e93-b162-e5be-0b88" value="-"/>
+            <characteristic name="Blast" characteristicTypeId="34e6-6ce9-549a-7643" value="R5 2+1"/>
+            <characteristic name="Cost" characteristicTypeId="dba9-63d2-f16f-cc68" value="2"/>
+            <characteristic name="Abilities" characteristicTypeId="1a82-14ec-206c-4db6" value="Anti-Air, Commander, Flight"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b5bb-93b3-4b40-8146" name="Commander" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Allied same-named grunt units within two spaces of this unit gain +1 BD when participating in brawl or blast attacks.</description>
+        </rule>
+        <rule id="7fb0-e740-15ca-8739" name="Flight" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model can end its movement on impassable terrain and is immune to hazards except when colliding with them.</description>
+        </rule>
+        <rule id="4be6-4303-cedb-1c9e" name="Anti-Air" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model gains +1 BD when participating in brawl or blast attacks targeting a model with Flight</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b26-cf82-49dc-8483" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2c57-8bd1-372b-c112" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="acf4-d755-a89e-f4d0" name="G-Tank" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="931f-426b-0562-6ff5" name="G-Tank" hidden="false" profileTypeId="9401-e931-3ab5-8be3" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="af77-0565-0614-27a0" value="4"/>
+            <characteristic name="Defense" characteristicTypeId="89fc-cebd-e4f9-7c13" value="4"/>
+            <characteristic name="Brawl" characteristicTypeId="4e93-b162-e5be-0b88" value="1"/>
+            <characteristic name="Blast" characteristicTypeId="34e6-6ce9-549a-7643" value="R5 2"/>
+            <characteristic name="Cost" characteristicTypeId="dba9-63d2-f16f-cc68" value="1"/>
+            <characteristic name="Abilities" characteristicTypeId="1a82-14ec-206c-4db6" value="Aim, All Terrain"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="9c49-054e-ab91-deeb" name="Aim" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model gains +1 BD when participating in blast attacks if it did not move this activation.</description>
+        </rule>
+        <rule id="e5b6-e020-0f99-3c7d" name="All Terrain" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model treats rough terrain as open terrain while advancing.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fa2-214a-8b3b-9d08" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4228-4926-a053-50eb" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="2029-91ca-9f1d-2d51" name="G-Tank Elite" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="8193-caed-9b94-cf05" name="G-Tank Elite" hidden="false" profileTypeId="9401-e931-3ab5-8be3" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="af77-0565-0614-27a0" value="4"/>
+            <characteristic name="Defense" characteristicTypeId="89fc-cebd-e4f9-7c13" value="4"/>
+            <characteristic name="Brawl" characteristicTypeId="4e93-b162-e5be-0b88" value="1+1"/>
+            <characteristic name="Blast" characteristicTypeId="34e6-6ce9-549a-7643" value="R5 2+1"/>
+            <characteristic name="Cost" characteristicTypeId="dba9-63d2-f16f-cc68" value="2"/>
+            <characteristic name="Abilities" characteristicTypeId="1a82-14ec-206c-4db6" value="Aim, All Terrain, Commander"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="e91d-19b2-e06f-1bbb" name="Aim" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model gains +1 BD when participating in blast attacks if it did not move this activation.</description>
+        </rule>
+        <rule id="3229-4d78-7135-fdd2" name="All Terrain" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model treats rough terrain as open terrain while advancing.</description>
+        </rule>
+        <rule id="e9c7-46f5-8f36-1c80" name="Commander" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Allied same-named grunt units within two spaces of this unit gain +1 BD when participating in brawl or blast attacks.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b81c-eeb9-1ffc-815b" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4f22-250b-8350-23d0" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="facd-e60a-1fb1-b0ea" name="Interceptor" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="c36a-3a06-a2d4-a393" name="Interceptor" hidden="false" profileTypeId="9401-e931-3ab5-8be3" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="af77-0565-0614-27a0" value="6"/>
+            <characteristic name="Defense" characteristicTypeId="89fc-cebd-e4f9-7c13" value="3"/>
+            <characteristic name="Brawl" characteristicTypeId="4e93-b162-e5be-0b88" value="-"/>
+            <characteristic name="Blast" characteristicTypeId="34e6-6ce9-549a-7643" value="R3 1+0"/>
+            <characteristic name="Cost" characteristicTypeId="dba9-63d2-f16f-cc68" value="1"/>
+            <characteristic name="Abilities" characteristicTypeId="1a82-14ec-206c-4db6" value="Action: Overdrive, Action: Transport, All Terrain"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="e9b0-588f-4e44-7d13" name="Action: Overdrive" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>During this model&apos;s activation, this model can spend one AD to perform an Overdrive Action. Advance this model up to its SPD, even if it has already advanced this turn.</description>
+        </rule>
+        <rule id="44b7-d316-a32a-d409" name="Action: Transport" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>During this model&apos;s activation, this model can spend one AD to perform a Transport action. Take one allied unit with the Cargo special rule from your unit reserves and place it play adjacent to this model.</description>
+        </rule>
+        <rule id="1579-dce2-ce35-ae6e" name="All Terrain" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model treats rough terrain as open terrain while advancing.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ed8-c153-f8aa-3540" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c26a-24a2-e0d6-e0ef" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="6d6c-9db4-4502-a80c" name="Repair Truck" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="fc89-0577-7ffc-94b3" name="Repair Truck" hidden="false" profileTypeId="9401-e931-3ab5-8be3" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="af77-0565-0614-27a0" value="5"/>
+            <characteristic name="Defense" characteristicTypeId="89fc-cebd-e4f9-7c13" value="2"/>
+            <characteristic name="Brawl" characteristicTypeId="4e93-b162-e5be-0b88" value="-"/>
+            <characteristic name="Blast" characteristicTypeId="34e6-6ce9-549a-7643" value="-"/>
+            <characteristic name="Cost" characteristicTypeId="dba9-63d2-f16f-cc68" value="1"/>
+            <characteristic name="Abilities" characteristicTypeId="1a82-14ec-206c-4db6" value="Action: Repair"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="4ad5-4e2a-67fb-2caf" name="Action: Repair" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>During your Unit Activation, thie model can spend one AD while adjeacent to a debris pile to perform a Repair action. If the tile is a hazard, flip it to the rubble side. if the tile is rubble and unoccupied, remove it and return a destroyed building to play on that foundation.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51e6-d7ad-4751-d2bb" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2a35-c1d0-1978-4cdc" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="4daf-faa2-6db0-ff59" name="Rocket Chopper" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="b992-eec4-56b7-83ff" name="Rocket Chopper" hidden="false" profileTypeId="9401-e931-3ab5-8be3" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="af77-0565-0614-27a0" value="5 (High Mobility)"/>
+            <characteristic name="Defense" characteristicTypeId="89fc-cebd-e4f9-7c13" value="2"/>
+            <characteristic name="Brawl" characteristicTypeId="4e93-b162-e5be-0b88" value="-"/>
+            <characteristic name="Blast" characteristicTypeId="34e6-6ce9-549a-7643" value="R3 2+1"/>
+            <characteristic name="Cost" characteristicTypeId="dba9-63d2-f16f-cc68" value="1"/>
+            <characteristic name="Abilities" characteristicTypeId="1a82-14ec-206c-4db6" value="Spotter, Flight"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b794-8c35-4d4d-ca19" name="Flight" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model can end its movement on impassable terrain and is immune to hazards except when colliding with them.</description>
+        </rule>
+        <rule id="5e86-94d1-7f5e-f9c6" name="Spotter" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Enemy models within two spaces of this model have their DEF reduced by 1 against blast atatcks made by allied models, to a minimum of 1.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6557-ec34-7a8f-be4f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="db05-cfbb-c678-e8b4" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="6563-3bb0-ea45-9eb8" name="Shadow Gate" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="f684-43d2-a8cf-4aa5" name="Shadow Gate" hidden="false" profileTypeId="9401-e931-3ab5-8be3" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="af77-0565-0614-27a0" value="3"/>
+            <characteristic name="Defense" characteristicTypeId="89fc-cebd-e4f9-7c13" value="2"/>
+            <characteristic name="Brawl" characteristicTypeId="4e93-b162-e5be-0b88" value="-"/>
+            <characteristic name="Blast" characteristicTypeId="34e6-6ce9-549a-7643" value="-"/>
+            <characteristic name="Cost" characteristicTypeId="dba9-63d2-f16f-cc68" value="1"/>
+            <characteristic name="Abilities" characteristicTypeId="1a82-14ec-206c-4db6" value="Action: Teleport, All Terrain, Cargo, Cloak, Shadow Field"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="f5bc-22e7-c89b-23c6" name="All Terrain" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model treats rough terrain as open terrain while advancing.</description>
+        </rule>
+        <rule id="6c27-4caf-e8d7-5f49" name="Action: Teleport" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>During this model&apos;s Activation, this model can spend one AD to perform a Teleport action. Either choose an adjacent allied unit and place it adjacent to another allied model with Teleport or choose one allied unit adjacent to another allied model with Teleport and place it adjacent to this model.</description>
+        </rule>
+        <rule id="e070-84be-343c-742c" name="Cargo" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This unit is cargo.</description>
+        </rule>
+        <rule id="76c2-01f0-ab33-186d" name="Cloak" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model cannot be targeted by blast attacks made by a model more than two spaces away.</description>
+        </rule>
+        <rule id="3fb2-8da3-4972-6fae" name="Shadow Field" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>While adjacent to this model, allied units gain Cloak.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e54-7633-5f9a-a91f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="18f3-b9cc-b4d9-d961" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="d0d1-2049-3c8f-c6ca" name="Shinobi" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="d5f7-c68b-aa38-1f1f" name="Shinobi" hidden="false" profileTypeId="9401-e931-3ab5-8be3" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="af77-0565-0614-27a0" value="5 (High Mobility)"/>
+            <characteristic name="Defense" characteristicTypeId="89fc-cebd-e4f9-7c13" value="3"/>
+            <characteristic name="Brawl" characteristicTypeId="4e93-b162-e5be-0b88" value="2+1"/>
+            <characteristic name="Blast" characteristicTypeId="34e6-6ce9-549a-7643" value="-"/>
+            <characteristic name="Cost" characteristicTypeId="dba9-63d2-f16f-cc68" value="1"/>
+            <characteristic name="Abilities" characteristicTypeId="1a82-14ec-206c-4db6" value="Cloak, Side Step"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="a8d1-a9be-bee2-59bb" name="Cloak" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model cannot be targeted by blast attacks made by a model more than two spaces away.</description>
+        </rule>
+        <rule id="f33c-7122-beff-1a7c" name="Side Step" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If this model is missed by an attack, after the attack is resolved this model can advance up to three spaces.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23fe-7e24-1038-a1fa" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7012-c634-f797-6801" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="e96c-a3b4-2d73-f5bf" name="Shinobi Elite" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="d5e4-0485-dec0-148d" name="Shinobi Elite" hidden="false" profileTypeId="9401-e931-3ab5-8be3" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="af77-0565-0614-27a0" value="5 (High Mobility)"/>
+            <characteristic name="Defense" characteristicTypeId="89fc-cebd-e4f9-7c13" value="3"/>
+            <characteristic name="Brawl" characteristicTypeId="4e93-b162-e5be-0b88" value="2+2"/>
+            <characteristic name="Blast" characteristicTypeId="34e6-6ce9-549a-7643" value="-"/>
+            <characteristic name="Cost" characteristicTypeId="dba9-63d2-f16f-cc68" value="2"/>
+            <characteristic name="Abilities" characteristicTypeId="1a82-14ec-206c-4db6" value="Cloak, Commander, Side Step"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="13ac-f869-e153-c904" name="Commander" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Allied same-named grunt units within two spaces of this unit gain +1 BD when participating in brawl or blast attacks.</description>
+        </rule>
+        <rule id="09b9-ff60-c90e-8b86" name="Cloak" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model cannot be targeted by blast attacks made by a model more than two spaces away.</description>
+        </rule>
+        <rule id="2b7f-e041-8eb2-869c" name="Side Step" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If this model is missed by an attack, after the attack is resolved this model can advance up to three spaces.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a329-5e3a-91b0-b63f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="28e7-44f6-461b-ac70" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="79da-6925-3e3a-f498" name="Strike Fighter" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="0f08-27ae-d683-64b4" name="Strike Fighter" hidden="false" profileTypeId="9401-e931-3ab5-8be3" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="af77-0565-0614-27a0" value="7 (High Mobility)"/>
+            <characteristic name="Defense" characteristicTypeId="89fc-cebd-e4f9-7c13" value="1"/>
+            <characteristic name="Brawl" characteristicTypeId="4e93-b162-e5be-0b88" value="-"/>
+            <characteristic name="Blast" characteristicTypeId="34e6-6ce9-549a-7643" value="R3 2+1 (Indirect Fire)"/>
+            <characteristic name="Cost" characteristicTypeId="dba9-63d2-f16f-cc68" value="1"/>
+            <characteristic name="Abilities" characteristicTypeId="1a82-14ec-206c-4db6" value="Flight"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="4616-573b-da08-4aab" name="Flight" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model can end its movement on impassable terrain and is immune to hazards except when colliding with them.</description>
+        </rule>
+        <rule id="ac36-8694-3484-0d62" name="Indirect Fire" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This attack ignores Cover.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31eb-083e-49a5-e3b4" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="05ef-d472-1be3-32ff" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="3843-9196-3a46-edc5" name="Strike Fighter Elite" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="4bd7-88fc-1e03-759b" name="Strike Fighter Elite" hidden="false" profileTypeId="9401-e931-3ab5-8be3" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="af77-0565-0614-27a0" value="7 (High Mobility)"/>
+            <characteristic name="Defense" characteristicTypeId="89fc-cebd-e4f9-7c13" value="1"/>
+            <characteristic name="Brawl" characteristicTypeId="4e93-b162-e5be-0b88" value="-"/>
+            <characteristic name="Blast" characteristicTypeId="34e6-6ce9-549a-7643" value="R3 2+2 (Indirect Fire)"/>
+            <characteristic name="Cost" characteristicTypeId="dba9-63d2-f16f-cc68" value="1"/>
+            <characteristic name="Abilities" characteristicTypeId="1a82-14ec-206c-4db6" value="Commander, Flight"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="a7e2-82ff-4ca6-0455" name="Commander" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Allied same-named grunt units within two spaces of this unit gain +1 BD when participating in brawl or blast attacks.</description>
+        </rule>
+        <rule id="a3c5-3e0a-d2a7-2106" name="Flight" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model can end its movement on impassable terrain and is immune to hazards except when colliding with them.</description>
+        </rule>
+        <rule id="7e06-3d6f-923d-9a5b" name="Indirect Fire" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This attack ignores Cover.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ff8-a99f-adf0-5c32" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="b742-247b-4e5d-ae3e" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="c401-f463-ee46-ae2c" name="Sun Fighter" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="0400-8e1f-b705-cbdb" name="Sun Fighter" hidden="false" profileTypeId="9401-e931-3ab5-8be3" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="af77-0565-0614-27a0" value="7 (High Mobility)"/>
+            <characteristic name="Defense" characteristicTypeId="89fc-cebd-e4f9-7c13" value="2"/>
+            <characteristic name="Brawl" characteristicTypeId="4e93-b162-e5be-0b88" value="-"/>
+            <characteristic name="Blast" characteristicTypeId="34e6-6ce9-549a-7643" value="R5 2+0"/>
+            <characteristic name="Cost" characteristicTypeId="dba9-63d2-f16f-cc68" value="1"/>
+            <characteristic name="Abilities" characteristicTypeId="1a82-14ec-206c-4db6" value="Anti-Air, Flight"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="ec9e-912f-dffe-daeb" name="Flight" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model can end its movement on impassable terrain and is immune to hazards except when colliding with them.</description>
+        </rule>
+        <rule id="461f-5e63-e44a-fe10" name="Anti-Air" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model gains +1 BD when participating in brawl or blast attacks targeting a model with Flight</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00db-c6d5-d469-5c40" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="b13d-e0ea-0df0-05fe" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks/>
+  <sharedSelectionEntries/>
+  <sharedSelectionEntryGroups/>
+  <sharedRules/>
+  <sharedProfiles/>
+</catalogue>
