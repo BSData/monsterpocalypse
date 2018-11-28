@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e701-36ee-f329-647c" name="Protectors" revision="2" battleScribeVersion="2.01" gameSystemId="5077-1534-4a53-bf4e" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e701-36ee-f329-647c" name="Protectors" revision="3" battleScribeVersion="2.01" gameSystemId="5077-1534-4a53-bf4e" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -238,75 +238,40 @@
       <entryLinks/>
       <costs/>
     </selectionEntry>
-    <selectionEntry id="71bc-1511-ae9b-6e2a" name="Zor-Maxim" hidden="false" collective="false" type="model">
+    <selectionEntry id="71bc-1511-ae9b-6e2a" name="Armodax" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="e977-a33e-66c4-08ce" name="Zor-Maxim (Hyper)" hidden="false" profileTypeId="43e0-b127-f70f-2c38" profileTypeName="Monster">
+        <profile id="e977-a33e-66c4-08ce" name="Armodax (Hyper)" hidden="false" profileTypeId="43e0-b127-f70f-2c38" profileTypeName="Monster">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value="7 (High Mobility)"/>
-            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value="10"/>
-            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value="7+5"/>
-            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value="R3 6+4"/>
-            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value="8+5 (Penetrator)"/>
-            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value="5"/>
-            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value="Action: Teleport, Energy Cycle, Rapid Fire, Side Step"/>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value=""/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value=""/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value=""/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value=""/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value=""/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value=""/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value=""/>
           </characteristics>
         </profile>
-        <profile id="45bf-dec8-6a4f-a289" name="Zor-Maxim" hidden="false" profileTypeId="43e0-b127-f70f-2c38" profileTypeName="Monster">
+        <profile id="45bf-dec8-6a4f-a289" name="Armodax" hidden="false" profileTypeId="43e0-b127-f70f-2c38" profileTypeName="Monster">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value="7 (High Mobility)"/>
-            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value="9"/>
-            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value="7+4"/>
-            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value="-"/>
-            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value="7+3 (Penetrator)"/>
-            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value="10"/>
-            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value="Action: Teleport, Side Step"/>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value=""/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value=""/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value=""/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value=""/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value=""/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value=""/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value=""/>
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="6e50-bf8a-bfec-6a51" name="Action: Teleport" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>During this model&apos;s Activation, this model can spend one AD to perform a Teleport action. Either choose an adjacent allied unit and place it adjacent to another allied model with Teleport or choose one allied unit adjacent to another allied model with Teleport and place it adjacent to this model.</description>
-        </rule>
-        <rule id="20fa-c2a3-7e19-501d" name="Rapid Fire" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </rule>
-        <rule id="b0c8-a56b-83b1-d0f9" name="Energy Cycle" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>If you roll two or more Action Dice on an attack made by this model and the attack hits an enemy model, after the attack is resolved you can move one AD from your Unit Pool to your Monster Pool.</description>
-        </rule>
-        <rule id="f1b9-8ff1-b7bf-6e35" name="Side Step" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>If this model is missed by an attack, after the attack is resolved this model can advance up to three spaces.</description>
-        </rule>
-        <rule id="57cd-cb84-8d15-dee7" name="Penetrator" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>When resolving this attack, the target suffers -1 DEF, to a minimum of 1.</description>
-        </rule>
-      </rules>
+      <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints>
@@ -1225,6 +1190,201 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="b13d-e0ea-0df0-05fe" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="a1c0-14c8-a90d-9ab7" name="Zor-Maxim" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="5ec3-f6e2-040f-0a1c" name="Zor-Maxim (Hyper)" hidden="false" profileTypeId="43e0-b127-f70f-2c38" profileTypeName="Monster">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value="7 (High Mobility)"/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value="10"/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value="7+5"/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value="R3 6+4"/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value="8+5 (Penetrator)"/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value="5"/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value="Action: Teleport, Energy Cycle, Rapid Fire, Side Step"/>
+          </characteristics>
+        </profile>
+        <profile id="0452-1f4a-6737-d6f5" name="Zor-Maxim" hidden="false" profileTypeId="43e0-b127-f70f-2c38" profileTypeName="Monster">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value="7 (High Mobility)"/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value="9"/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value="7+4"/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value="-"/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value="7+3 (Penetrator)"/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value="10"/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value="Action: Teleport, Side Step"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="ab31-277c-6a03-5b41" name="Action: Teleport" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>During this model&apos;s Activation, this model can spend one AD to perform a Teleport action. Either choose an adjacent allied unit and place it adjacent to another allied model with Teleport or choose one allied unit adjacent to another allied model with Teleport and place it adjacent to this model.</description>
+        </rule>
+        <rule id="eb8d-251b-7e3b-6eb4" name="Rapid Fire" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model can make a blast attack in addition to any other attacks it makes during each of your Monster activations.</description>
+        </rule>
+        <rule id="190d-a3a0-d56a-8cb1" name="Energy Cycle" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If you roll two or more Action Dice on an attack made by this model and the attack hits an enemy model, after the attack is resolved you can move one AD from your Unit Pool to your Monster Pool.</description>
+        </rule>
+        <rule id="1750-2cb9-407d-eaa8" name="Side Step" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If this model is missed by an attack, after the attack is resolved this model can advance up to three spaces.</description>
+        </rule>
+        <rule id="c64e-7729-9a70-26f7" name="Penetrator" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When resolving this attack, the target suffers -1 DEF, to a minimum of 1.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4651-1c6a-b327-540f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="432d-37b1-df75-b2e2" name="Monster" hidden="false" targetId="c7bf-4083-0efb-c970" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="fafe-a9a9-d627-88ca" name="Sky Sentinel" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="c78e-8b56-12fa-5a58" name="Sky Sentinel (Hyper)" hidden="false" profileTypeId="43e0-b127-f70f-2c38" profileTypeName="Monster">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value=""/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value=""/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value=""/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value=""/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value=""/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value=""/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value=""/>
+          </characteristics>
+        </profile>
+        <profile id="df94-04a8-c6d4-1433" name="Sky Sentinel" hidden="false" profileTypeId="43e0-b127-f70f-2c38" profileTypeName="Monster">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value=""/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value=""/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value=""/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value=""/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value=""/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value=""/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value=""/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afc4-a817-4beb-8f72" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="480d-5100-fb7c-8e34" name="Monster" hidden="false" targetId="c7bf-4083-0efb-c970" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="b116-7e1f-2d40-1160" name="Zor-Raiden" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="adf4-311c-957c-7067" name="Zor-Raiden (Hyper)" hidden="false" profileTypeId="43e0-b127-f70f-2c38" profileTypeName="Monster">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value=""/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value=""/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value=""/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value=""/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value=""/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value=""/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value=""/>
+          </characteristics>
+        </profile>
+        <profile id="2785-7797-5915-3920" name="Zor-Raiden" hidden="false" profileTypeId="43e0-b127-f70f-2c38" profileTypeName="Monster">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value=""/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value=""/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value=""/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value=""/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value=""/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value=""/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value=""/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c747-25fe-2e96-c739" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="b7cf-b8ba-1aa5-1203" name="Monster" hidden="false" targetId="c7bf-4083-0efb-c970" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
