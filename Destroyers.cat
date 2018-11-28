@@ -378,104 +378,40 @@
       <entryLinks/>
       <costs/>
     </selectionEntry>
-    <selectionEntry id="e4ae-6275-a876-7e05" name="Ares Mothership" hidden="false" collective="false" type="model">
+    <selectionEntry id="e4ae-6275-a876-7e05" name="Yasheth" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="2b4c-e60a-8002-6f55" name="Ares Mothership (Hyper)" hidden="false" profileTypeId="43e0-b127-f70f-2c38" profileTypeName="Monster">
+        <profile id="2b4c-e60a-8002-6f55" name="Yasheth (Hyper)" hidden="false" profileTypeId="43e0-b127-f70f-2c38" profileTypeName="Monster">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value="7 (High Mobility)"/>
-            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value="8"/>
-            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value="6+4"/>
-            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value="R5 6+5 (Hit &amp; Run)"/>
-            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value="5+4"/>
-            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value="5"/>
-            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value="Flight, Mechanical, Spotter, Steady, Tactical Command"/>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value=""/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value=""/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value=""/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value=""/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value=""/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value=""/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value=""/>
           </characteristics>
         </profile>
-        <profile id="3775-abac-b451-dd1e" name="Ares Mothership" hidden="false" profileTypeId="43e0-b127-f70f-2c38" profileTypeName="Monster">
+        <profile id="3775-abac-b451-dd1e" name="Yasheth" hidden="false" profileTypeId="43e0-b127-f70f-2c38" profileTypeName="Monster">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value="7 (High Mobility)"/>
-            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value="8"/>
-            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value="6+3 (Manufacture)"/>
-            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value="R3 6+4"/>
-            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value="5+4"/>
-            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value="11"/>
-            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value="Action: Abduct [4], Action: Transport, Flight, Mechanical, Steady"/>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value=""/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value=""/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value=""/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value=""/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value=""/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value=""/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value=""/>
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="ba2c-c1b6-b351-a47d" name="Action: Abduct [4]" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>This model can spend one action die to perform an abduct action during your unit activation. If this model is adjacent to an emeny unit with DEF 4 or less, return the enemy unit to your opponent&apos;s unit reserves.</description>
-        </rule>
-        <rule id="257f-1e23-d70a-e0bb" name="Action: Transport" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>During your unit activation, this model can spend one action die to perform a transport action. Take one allied unit with the Cargo special rule from your unit reserves and place it in play adjacent to this model.</description>
-        </rule>
-        <rule id="f8d7-359d-bf9f-b070" name="Flight" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>This model can end its movement on impassable terrain and is immune to hazards except when colliding with them.</description>
-        </rule>
-        <rule id="1cb1-1ff9-4b6f-5e3f" name="Steady" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Enemy monsters do not roll boost dice when making body slam power attacks against this model.</description>
-        </rule>
-        <rule id="57d4-bc51-c7c4-641f" name="Mechanical" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>This monster is mechanical.</description>
-        </rule>
-        <rule id="e3c4-356c-25ef-a0e8" name="Spotter" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Enemy models within two spaces of this model have their DEF reduced by 1 against blast atatcks made by allied models, to a minimum of 1.</description>
-        </rule>
-        <rule id="c03e-6667-c451-42b1" name="Tactical Command" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>While this model is in play, faction unit&apos;s blast attacks gain Hit &amp; Run.</description>
-        </rule>
-        <rule id="b283-6aa6-ef5a-60f8" name="Hit &amp; Run" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>If this model hits a target with this attack, immediately after the attack is resolved advance this model up to 3 spaces even if this model has already advanced this turn.</description>
-        </rule>
-        <rule id="6dce-31f4-3ad8-62dc" name="Manufacture" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>If this attack hits an enemy unit, immediately after the attack has been resolved replace the enemy unit hit with a faction unit from your reserves. The replacing faction unit cannot participate in an attack this activation.</description>
-        </rule>
-      </rules>
+      <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints>
@@ -1304,6 +1240,229 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="100a-5ce0-ac13-d291" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="5507-77f4-cb6b-72b1" name="Ares Mothership" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="bfae-2f87-bd9d-0362" name="Ares Mothership (Hyper)" hidden="false" profileTypeId="43e0-b127-f70f-2c38" profileTypeName="Monster">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value="7 (High Mobility)"/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value="8"/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value="6+4"/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value="R5 6+5 (Hit &amp; Run)"/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value="5+4"/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value="5"/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value="Flight, Mechanical, Spotter, Steady, Tactical Command"/>
+          </characteristics>
+        </profile>
+        <profile id="fe92-8cab-ae37-bece" name="Ares Mothership" hidden="false" profileTypeId="43e0-b127-f70f-2c38" profileTypeName="Monster">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value="7 (High Mobility)"/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value="8"/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value="6+3 (Manufacture)"/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value="R3 6+4"/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value="5+4"/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value="11"/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value="Action: Abduct [4], Action: Transport, Flight, Mechanical, Steady"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d45f-f06a-4f48-77d0" name="Action: Abduct [4]" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model can spend one action die to perform an abduct action during your unit activation. If this model is adjacent to an emeny unit with DEF 4 or less, return the enemy unit to your opponent&apos;s unit reserves.</description>
+        </rule>
+        <rule id="d3df-3bf2-f937-fa50" name="Action: Transport" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>During your unit activation, this model can spend one action die to perform a transport action. Take one allied unit with the Cargo special rule from your unit reserves and place it in play adjacent to this model.</description>
+        </rule>
+        <rule id="0347-ca4d-d54d-fdc3" name="Flight" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model can end its movement on impassable terrain and is immune to hazards except when colliding with them.</description>
+        </rule>
+        <rule id="3408-d31a-933d-c853" name="Steady" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Enemy monsters do not roll boost dice when making body slam power attacks against this model.</description>
+        </rule>
+        <rule id="2da7-c83e-f32e-9a5a" name="Mechanical" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This monster is mechanical.</description>
+        </rule>
+        <rule id="2b41-479c-3dca-75a8" name="Spotter" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Enemy models within two spaces of this model have their DEF reduced by 1 against blast atatcks made by allied models, to a minimum of 1.</description>
+        </rule>
+        <rule id="fcbc-8cfd-edfd-0b4f" name="Tactical Command" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>While this model is in play, faction unit&apos;s blast attacks gain Hit &amp; Run.</description>
+        </rule>
+        <rule id="8fc7-6763-083b-5f9f" name="Hit &amp; Run" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If this model hits a target with this attack, immediately after the attack is resolved advance this model up to 3 spaces even if this model has already advanced this turn.</description>
+        </rule>
+        <rule id="be75-4c29-87f6-bca4" name="Manufacture" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If this attack hits an enemy unit, immediately after the attack has been resolved replace the enemy unit hit with a faction unit from your reserves. The replacing faction unit cannot participate in an attack this activation.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b56-7a4a-c934-b289" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7a0d-3cab-30c9-6871" name="Monster" hidden="false" targetId="c7bf-4083-0efb-c970" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="293e-43d6-9500-4259" name="Deimos-9" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="0c5c-1280-01e6-a769" name="Deimos-9 (Hyper)" hidden="false" profileTypeId="43e0-b127-f70f-2c38" profileTypeName="Monster">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value=""/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value=""/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value=""/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value=""/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value=""/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value=""/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value=""/>
+          </characteristics>
+        </profile>
+        <profile id="ea85-648d-92c2-6a11" name="Deimos-9" hidden="false" profileTypeId="43e0-b127-f70f-2c38" profileTypeName="Monster">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value=""/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value=""/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value=""/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value=""/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value=""/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value=""/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value=""/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98c4-e25c-dd47-46be" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="f292-f270-25b1-10cc" name="Monster" hidden="false" targetId="c7bf-4083-0efb-c970" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="80ff-edcd-8c8b-4e7f" name="Rogzor" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="f85e-c06e-1ab4-2d95" name="Rogzor (Hyper)" hidden="false" profileTypeId="43e0-b127-f70f-2c38" profileTypeName="Monster">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value=""/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value=""/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value=""/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value=""/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value=""/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value=""/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value=""/>
+          </characteristics>
+        </profile>
+        <profile id="6347-3ae5-ed6a-41a2" name="Rogzor" hidden="false" profileTypeId="43e0-b127-f70f-2c38" profileTypeName="Monster">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value=""/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value=""/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value=""/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value=""/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value=""/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value=""/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value=""/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="891e-34e4-6e20-6566" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="538e-8684-0fcc-473c" name="Monster" hidden="false" targetId="c7bf-4083-0efb-c970" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
