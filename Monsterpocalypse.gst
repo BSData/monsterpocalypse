@@ -511,8 +511,8 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Defense" characteristicTypeId="122e-2c79-16cb-a501" value="6"/>
-            <characteristic name="Abilities" characteristicTypeId="bea6-295c-1961-177e" value="Incombustible, Radar Network"/>
+            <characteristic name="Defense" characteristicTypeId="122e-2c79-16cb-a501" value="7"/>
+            <characteristic name="Abilities" characteristicTypeId="bea6-295c-1961-177e" value="G.U.A.R.D., Incombustible"/>
           </characteristics>
         </profile>
       </profiles>
@@ -566,8 +566,8 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Defense" characteristicTypeId="122e-2c79-16cb-a501" value="5"/>
-            <characteristic name="Abilities" characteristicTypeId="bea6-295c-1961-177e" value="High Density"/>
+            <characteristic name="Defense" characteristicTypeId="122e-2c79-16cb-a501" value="7"/>
+            <characteristic name="Abilities" characteristicTypeId="bea6-295c-1961-177e" value="Martian Menace Base, Resource Domination"/>
           </characteristics>
         </profile>
       </profiles>
