@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e701-36ee-f329-647c" name="Protectors" revision="3" battleScribeVersion="2.01" gameSystemId="5077-1534-4a53-bf4e" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e701-36ee-f329-647c" name="Protectors" revision="4" battleScribeVersion="2.01" gameSystemId="5077-1534-4a53-bf4e" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -928,9 +928,9 @@
       <entryLinks/>
       <costs/>
     </selectionEntry>
-    <selectionEntry id="d0d1-2049-3c8f-c6ca" name="Shinobi" hidden="false" collective="false" type="model">
+    <selectionEntry id="d0d1-2049-3c8f-c6ca" name="S-Type Shinobi" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="d5f7-c68b-aa38-1f1f" name="Shinobi" hidden="false" profileTypeId="9401-e931-3ab5-8be3" profileTypeName="Unit">
+        <profile id="d5f7-c68b-aa38-1f1f" name="S-Type Shinobi" hidden="false" profileTypeId="9401-e931-3ab5-8be3" profileTypeName="Unit">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -980,9 +980,9 @@
       <entryLinks/>
       <costs/>
     </selectionEntry>
-    <selectionEntry id="e96c-a3b4-2d73-f5bf" name="Shinobi Elite" hidden="false" collective="false" type="model">
+    <selectionEntry id="e96c-a3b4-2d73-f5bf" name="S-Type Shinobii Elite" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="d5e4-0485-dec0-148d" name="Shinobi Elite" hidden="false" profileTypeId="9401-e931-3ab5-8be3" profileTypeName="Unit">
+        <profile id="d5e4-0485-dec0-148d" name="S-Type Shinobi Elite" hidden="false" profileTypeId="9401-e931-3ab5-8be3" profileTypeName="Unit">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1299,13 +1299,13 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value=""/>
-            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value=""/>
-            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value=""/>
-            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value=""/>
-            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value=""/>
-            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value=""/>
-            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value=""/>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value="7"/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value="9"/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value="6+4"/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value="R:5 7+5 (Power Gorge)"/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value="5+4"/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value="5"/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value="Flight, Mechanical, Rapid Fire, Wind Leader"/>
           </characteristics>
         </profile>
         <profile id="df94-04a8-c6d4-1433" name="Sky Sentinel" hidden="false" profileTypeId="43e0-b127-f70f-2c38" profileTypeName="Monster">
@@ -1314,17 +1314,60 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value=""/>
-            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value=""/>
-            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value=""/>
-            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value=""/>
-            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value=""/>
-            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value=""/>
-            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value=""/>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value="7 (High Mobility)"/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value="9"/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value="6+3"/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value="R:5 6+4"/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value="5+3"/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value="11"/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value="Anti-Air, Flight, Mechanical, Wing Leader"/>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
+      <rules>
+        <rule id="2b6e-ebcc-6bc9-5c21" name="Flight" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model can end its movement on impassable terrain and is immune to hazards except when colliding with them.</description>
+        </rule>
+        <rule id="4fda-19a5-2492-666e" name="Mechanical" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This monster is mechanical.</description>
+        </rule>
+        <rule id="5d0e-3ddc-3d34-6c09" name="Anti-Air" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model gains +1 BD when participating in brawl or blast attacks targeting a model with Flight</description>
+        </rule>
+        <rule id="821e-595d-2769-d750" name="Rapid Fire" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model can make a blast attack in addition to any other attacks it makes during each of your Monster activations.</description>
+        </rule>
+        <rule id="2b08-dbb8-1f17-e060" name="Power Gorge" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When this attack destroys an enemy model, you gain an additional Power Die.</description>
+        </rule>
+        <rule id="7b5b-c35d-5286-bc54" name="Wing Leader" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>While this model is in play, Faction units with the Flight special rule gain +1 Boost Die when participating in blast attacks.</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints>
