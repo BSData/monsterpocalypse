@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="5077-1534-4a53-bf4e" name="Monsterpocalypse" revision="2" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="5077-1534-4a53-bf4e" name="Monsterpocalypse" revision="3" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -491,6 +491,107 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="4e8a-8129-586b-a368" name="Building" hidden="false" targetId="807e-04c6-33b2-9c0f" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="9548-7481-8c25-6f5e" name="G.U.A.R.D. Defense Base" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="3aa5-b43e-adfc-90d6" name="G.U.A.R.D. Defense Base" hidden="false" profileTypeId="3a10-d657-fe6d-07b4" profileTypeName="Building">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Defense" characteristicTypeId="122e-2c79-16cb-a501" value="6"/>
+            <characteristic name="Abilities" characteristicTypeId="bea6-295c-1961-177e" value="Incombustible, Radar Network"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="80c8-f477-441a-f7ee" name="Incombustible" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If this building is destroyed, replace it with rubble.</description>
+        </rule>
+        <rule id="756c-5cb5-1ab7-20f3" name="Action: Command &amp; Control" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If you make an attack that fails to hit during your Unit or Monster Activation, this model can spend one Action Die to perform a Command &amp; Control action. Reroll that attack roll.</description>
+        </rule>
+        <rule id="ebd7-c470-b7fe-cc2e" name="G.U.A.R.D. Base" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Once per turn, if you are securing one or more buildings with G.U.A.R.D. Base and spawn a G.U.A.R.D. unit, reduce its cost by 1.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ee5-3fbe-08ef-a80f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="8bbe-e7d7-f406-ecde" name="Building" hidden="false" targetId="807e-04c6-33b2-9c0f" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="ef93-2acf-dab4-2e74" name="Martian Command Post" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="de87-87f7-afe5-108a" name="Martian Command Post" hidden="false" profileTypeId="3a10-d657-fe6d-07b4" profileTypeName="Building">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Defense" characteristicTypeId="122e-2c79-16cb-a501" value="5"/>
+            <characteristic name="Abilities" characteristicTypeId="bea6-295c-1961-177e" value="High Density"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="7efb-06f6-f307-aed8" name="Martian Menace Base" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Once per turn, if you are securing one or more buildings with Martian Menace Base and spawn a Martian Menace unit, reduce its cost by 1.</description>
+        </rule>
+        <rule id="a5a5-5176-9234-3fdf" name="Resource Domination" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Once per turn, if you are securing one or more buildings with Resource Domination when you roll two or more Power Dice on an attack made by your monster and the attack hits an enemy model, after the attack is resolved, you can move one Power Die from your Dice Well to your Power Pool.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="347e-4315-5495-ee1b" name="Building" hidden="false" targetId="807e-04c6-33b2-9c0f" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
