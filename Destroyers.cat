@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="98ce-47e5-bc5a-72ce" name="Destroyers" revision="2" battleScribeVersion="2.01" gameSystemId="5077-1534-4a53-bf4e" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="98ce-47e5-bc5a-72ce" name="Destroyers" revision="3" battleScribeVersion="2.01" gameSystemId="5077-1534-4a53-bf4e" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -386,13 +386,13 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value=""/>
-            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value=""/>
-            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value=""/>
-            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value=""/>
-            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value=""/>
-            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value=""/>
-            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value=""/>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value="7 (High Mobility)"/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value="9"/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value="8+5"/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value="-"/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value="6+5"/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value="5"/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value="Arcane Void, Lightning Attack, Penetrator, Siphon"/>
           </characteristics>
         </profile>
         <profile id="3775-abac-b451-dd1e" name="Yasheth" hidden="false" profileTypeId="43e0-b127-f70f-2c38" profileTypeName="Monster">
@@ -401,17 +401,60 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value=""/>
-            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value=""/>
-            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value=""/>
-            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value=""/>
-            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value=""/>
-            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value=""/>
-            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value=""/>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value="6 (High Mobility)"/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value="8"/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value="7+3 (Penetrator, Vampirism)"/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value="-"/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value="6+4"/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value="11"/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value="Side Step"/>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
+      <rules>
+        <rule id="c3ee-4925-c604-1cae" name="Penetrator" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When resolving this attack, the target suffers -1 DEF, to a minimum of 1.</description>
+        </rule>
+        <rule id="a45e-a889-14b4-3fc4" name="Lightning Attack" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The model can make a brawl attack in addition to any other attacks it makes during each of its activations.</description>
+        </rule>
+        <rule id="74fe-7881-83ec-5dc2" name="Arcane Void" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>While this model is in play, allied units&apos; blast and brawl gain Siphon.</description>
+        </rule>
+        <rule id="8a1e-d7f4-c2b5-4876" name="Vampirism" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If this attack hits an enemy monster, restore 1 Health to this monstr after this attack has been resolved.</description>
+        </rule>
+        <rule id="1a76-4ed9-cebf-ae42" name="Siphon" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If this attack hits an enemy monster, you gain one Power Die. That monster&apos;s controller loses one Power Die.</description>
+        </rule>
+        <rule id="1119-2f28-77e0-d326" name="Side Step" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If this model is missed by an attack, after the attack is resolved this model can advance up to three spaces.</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints>
@@ -1377,13 +1420,13 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value=""/>
-            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value=""/>
-            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value=""/>
-            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value=""/>
-            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value=""/>
-            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value=""/>
-            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value=""/>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value="6"/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value="8"/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value="8+5 (Fling)"/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value="R:3 4+4"/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value="7+5"/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value="5"/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value="Energy Cycle, Flank, Grappler, Lightning Attack, Mechanical"/>
           </characteristics>
         </profile>
         <profile id="ea85-648d-92c2-6a11" name="Deimos-9" hidden="false" profileTypeId="43e0-b127-f70f-2c38" profileTypeName="Monster">
@@ -1392,17 +1435,67 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value=""/>
-            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value=""/>
-            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value=""/>
-            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value=""/>
-            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value=""/>
-            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value=""/>
-            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value=""/>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value="6"/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value="8"/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value="7+4"/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value="R:3 4+3 (Power Gorge)"/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value="6+4"/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value="11"/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value="Flank, Grappler, Mechanical"/>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
+      <rules>
+        <rule id="741a-aa2d-4c23-cbc4" name="Mechanical" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This monster is mechanical.</description>
+        </rule>
+        <rule id="8d14-85a4-264f-5937" name="Power Gorge" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When this attack destroy and enemy model, you can an additional PD.</description>
+        </rule>
+        <rule id="5a52-c468-2932-438b" name="Fling" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When this attack hits a unit, choose a building or enemy model within five spaces of the unit hit. Roll the dice in play. If the chosen model&apos;s DEF is equal to or less than the number of strikes rolled, it takes 1 damage point.</description>
+        </rule>
+        <rule id="c645-d752-68fb-d0f1" name="Flank" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Enemies withing two spaces of this model have their DEF reduced by 1 against brawl attacks made by allied models, to a minimum of 1.</description>
+        </rule>
+        <rule id="790a-1ee0-96de-70cd" name="Energy Cycle" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If you roll two or more Action Dice on an attack made by this model and the attack hits an enemy model, after the attack is resolved you can move one Action Die from your Unit Pool to your Monster Pool.</description>
+        </rule>
+        <rule id="065a-1a33-7e8d-8786" name="Grappler" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Enemy models cannot move through this model or models adjacent to it. Enemy models are not immune to hazards adjacent to this model.</description>
+        </rule>
+        <rule id="e23c-e6a0-00de-ce94" name="Lightning Attack" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The model can make a brawl attack in addition to any other attacks it makes during each of its activations.</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints>
