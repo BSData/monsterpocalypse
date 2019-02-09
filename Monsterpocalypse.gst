@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="5077-1534-4a53-bf4e" name="Monsterpocalypse" revision="3" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="5077-1534-4a53-bf4e" name="Monsterpocalypse" revision="4" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -176,26 +176,33 @@
     </forceEntry>
   </forceEntries>
   <selectionEntries>
-    <selectionEntry id="4377-a76f-7796-7547" name="Industrial Complex" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="4377-a76f-7796-7547" name="Harbinger Comet Shard" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="df8a-5b64-8ba6-4baa" name="Industrial Complex" hidden="false" profileTypeId="3a10-d657-fe6d-07b4" profileTypeName="Building">
+        <profile id="df8a-5b64-8ba6-4baa" name="Harbinger Comet Shard" hidden="false" profileTypeId="3a10-d657-fe6d-07b4" profileTypeName="Building">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Defense" characteristicTypeId="122e-2c79-16cb-a501" value="6"/>
-            <characteristic name="Abilities" characteristicTypeId="bea6-295c-1961-177e" value="Fuel Depot"/>
+            <characteristic name="Defense" characteristicTypeId="122e-2c79-16cb-a501" value="7"/>
+            <characteristic name="Abilities" characteristicTypeId="bea6-295c-1961-177e" value="Planet Eaters Base, Power Converter"/>
           </characteristics>
         </profile>
       </profiles>
       <rules>
-        <rule id="b442-c13b-7069-1544" name="Fuel Depot" hidden="false">
+        <rule id="4ac5-2f12-7950-7493" name="Power Converter" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>If you are securing this building, allied models gain +1 SPD.</description>
+          <description>Once per turn, if you are securing one or more buildings with Power Converter and one of your attacks destroys an enemy model, you gain one additional Power Die.</description>
+        </rule>
+        <rule id="e19b-4806-4f0e-a025" name="Planet Eaters Base" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Once per turn, if you are securing one or more buildings with Planet Eaters Base and spawn a Planet Eaters unit, reduce its cost by 1.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -256,26 +263,40 @@
       <entryLinks/>
       <costs/>
     </selectionEntry>
-    <selectionEntry id="1387-b0ce-fd2d-e4cc" name="Skyscraper" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="1387-b0ce-fd2d-e4cc" name="Void Gate" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="f6f2-9830-f5cd-a13f" name="Skyscraper" hidden="false" profileTypeId="3a10-d657-fe6d-07b4" profileTypeName="Building">
+        <profile id="f6f2-9830-f5cd-a13f" name="Void Gate" hidden="false" profileTypeId="3a10-d657-fe6d-07b4" profileTypeName="Building">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
             <characteristic name="Defense" characteristicTypeId="122e-2c79-16cb-a501" value="7"/>
-            <characteristic name="Abilities" characteristicTypeId="bea6-295c-1961-177e" value="Discount"/>
+            <characteristic name="Abilities" characteristicTypeId="bea6-295c-1961-177e" value="Action: Empower, Action: Psychokinesis, Lords of Cthul Base"/>
           </characteristics>
         </profile>
       </profiles>
       <rules>
-        <rule id="3b8c-e5f0-d353-4fae" name="Discount" hidden="false">
+        <rule id="3b8c-e5f0-d353-4fae" name="Lords of Cthul Base" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Once per turn, if you are securing one or more buildings with Discount and spawn a unit, reduce it&apos;s cost by 1.</description>
+          <description>Once per turn, if you are securing one or more buildings with Lords of Cthul Base and spawn a Lords of Cthul unit, reduce its cost by 1.</description>
+        </rule>
+        <rule id="3fdc-bb6e-2ca0-97b3" name="Action: Empower" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>During your Unit or Monster Activation, this model can spend one Action Die to perform an Empower action. Replace one allied grunt unit with an elite unit of the same type from your reserves.</description>
+        </rule>
+        <rule id="83c5-dc44-8bee-3f4d" name="Action: Psychokinesis" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>During your Unit or Monster Activation, this model can spend one Action Die to perform a Psychokinesis action. Choose one unit within three spaces of this model. Move the chosen unit one space.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -558,9 +579,96 @@
       <entryLinks/>
       <costs/>
     </selectionEntry>
-    <selectionEntry id="ef93-2acf-dab4-2e74" name="Martian Command Post" hidden="false" collective="false" type="unit">
+    <selectionEntry id="ef93-2acf-dab4-2e74" name="Mount Terra" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="de87-87f7-afe5-108a" name="Martian Command Post" hidden="false" profileTypeId="3a10-d657-fe6d-07b4" profileTypeName="Building">
+        <profile id="de87-87f7-afe5-108a" name="Mount Terra" hidden="false" profileTypeId="3a10-d657-fe6d-07b4" profileTypeName="Building">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Defense" characteristicTypeId="122e-2c79-16cb-a501" value="7"/>
+            <characteristic name="Abilities" characteristicTypeId="bea6-295c-1961-177e" value="Action: Tectonic Shift, Terrasaurs Base"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="7efb-06f6-f307-aed8" name="Action: Tectonic Shift" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>During your Unit or Monster Activation, this model can spend one Action Die to perform a Tectonic Shift action. Advance one of your monsters up to two spaces.</description>
+        </rule>
+        <rule id="a5a5-5176-9234-3fdf" name="Terrasaurs Base" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Once per turn, if you are securing one or more buildings with Terrasaurs Base and spawn a Terrasaurs unit, reduce its cost by 1.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="347e-4315-5495-ee1b" name="Building" hidden="false" targetId="807e-04c6-33b2-9c0f" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="7750-8c98-7bdb-4208" name="Industrial Complex" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="aac0-9648-4bc6-0163" name="Industrial Complex" hidden="false" profileTypeId="3a10-d657-fe6d-07b4" profileTypeName="Building">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Defense" characteristicTypeId="122e-2c79-16cb-a501" value="6"/>
+            <characteristic name="Abilities" characteristicTypeId="bea6-295c-1961-177e" value="Fuel Depot"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="6654-c7e9-2d2f-c26d" name="Fuel Depot" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If you are securing this building, allied models gain +1 SPD.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db5b-8d79-5854-7a10" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3481-0b74-c41c-86bb" name="Building" hidden="false" targetId="807e-04c6-33b2-9c0f" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="6a77-641e-0cf4-1a69" name="Martian Command Post" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="3422-5a57-54ec-6e95" name="Martian Command Post" hidden="false" profileTypeId="3a10-d657-fe6d-07b4" profileTypeName="Building">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -572,14 +680,14 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="7efb-06f6-f307-aed8" name="Martian Menace Base" hidden="false">
+        <rule id="3b29-c1f6-1360-87e6" name="Martian Menace Base" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <description>Once per turn, if you are securing one or more buildings with Martian Menace Base and spawn a Martian Menace unit, reduce its cost by 1.</description>
         </rule>
-        <rule id="a5a5-5176-9234-3fdf" name="Resource Domination" hidden="false">
+        <rule id="3448-4459-38aa-7e5b" name="Resource Domination" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -591,7 +699,103 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="347e-4315-5495-ee1b" name="Building" hidden="false" targetId="807e-04c6-33b2-9c0f" primary="true">
+        <categoryLink id="aaac-6aa9-9ed2-84b2" name="Building" hidden="false" targetId="807e-04c6-33b2-9c0f" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="5811-6c71-b27d-42ff" name="Skyscraper" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="06ac-9f28-7a68-3f21" name="Skyscraper" hidden="false" profileTypeId="3a10-d657-fe6d-07b4" profileTypeName="Building">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Defense" characteristicTypeId="122e-2c79-16cb-a501" value="7"/>
+            <characteristic name="Abilities" characteristicTypeId="bea6-295c-1961-177e" value="Discount"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="0a99-1180-2d83-6a8d" name="Discount" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Once per turn, if you are securing one or more buildings with Discount and spawn a unit, reduce it&apos;s cost by 1.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c6a-0591-b151-d284" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="b6c1-63d1-20ea-c818" name="Building" hidden="false" targetId="807e-04c6-33b2-9c0f" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="5ed0-c8da-7237-1e5c" name="Sun Industries Building" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="8085-7c52-943d-ae50" name="Sun Industries Building" hidden="false" profileTypeId="3a10-d657-fe6d-07b4" profileTypeName="Building">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Defense" characteristicTypeId="122e-2c79-16cb-a501" value="7"/>
+            <characteristic name="Abilities" characteristicTypeId="bea6-295c-1961-177e" value="Shadown Screen, Shadown Sun Syndicate Base, Underground Network"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="f6f2-6ebc-ab7c-34dd" name="Underground Network" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If you are securing this building, when an allied unit advances while base to base with this building it may treat any spaces adjacent to any building with Underground Network or adjacent to any allied model with Teleort as adjacent spaces.</description>
+        </rule>
+        <rule id="1074-9ac9-e697-8e3b" name="Shadown Screen" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Models do not roll Boost Dice when participating in blast attacks targeting this model or units B2B with it.</description>
+        </rule>
+        <rule id="5fdc-17a6-7ec3-93bc" name="Shadown Sun Syndicate Base" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Once per turn, if you are securing one or more buildings with Shadown Sun Syndicate Base and spawn a Shadown Sun Syndicate unit, reduce its cost by 1.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b7e-c252-e1b2-e5fd" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9c90-67f7-f2aa-9900" name="Building" hidden="false" targetId="807e-04c6-33b2-9c0f" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
