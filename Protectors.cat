@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e701-36ee-f329-647c" name="Protectors" revision="4" battleScribeVersion="2.01" gameSystemId="5077-1534-4a53-bf4e" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e701-36ee-f329-647c" name="Protectors" revision="5" battleScribeVersion="2.01" gameSystemId="5077-1534-4a53-bf4e" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -246,13 +246,13 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value=""/>
-            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value=""/>
-            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value=""/>
-            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value=""/>
-            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value=""/>
-            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value=""/>
-            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value=""/>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value="6"/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value="8"/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value="8+5 (Beat Back)"/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value="-"/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value="7+5"/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value="6"/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value="Armored, Resilience, Riled, Unearthly Rage"/>
           </characteristics>
         </profile>
         <profile id="45bf-dec8-6a4f-a289" name="Armodax" hidden="false" profileTypeId="43e0-b127-f70f-2c38" profileTypeName="Monster">
@@ -261,17 +261,67 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value=""/>
-            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value=""/>
-            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value=""/>
-            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value=""/>
-            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value=""/>
-            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value=""/>
-            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value=""/>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value="6"/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value="7"/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value="7+4 (Power Gorge)"/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value="-"/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value="6+4"/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value="12"/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value="Armored, Demolisher, Resilience"/>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
+      <rules>
+        <rule id="5a7b-fb86-2faf-9caa" name="Armored" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This monster is immune to damage from collisions with buildings.</description>
+        </rule>
+        <rule id="361d-25fe-94e1-c4a7" name="Demolisher" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When this model makes an attack, gain +1 Power Die for every building destroyed as a result of its attack.</description>
+        </rule>
+        <rule id="d749-619a-9ac1-0a34" name="Resilience" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This monster is immune to Super Damage.</description>
+        </rule>
+        <rule id="1080-4141-dbbc-02ea" name="Power Gorge" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When this attack destroys an enemy model, you gain an additional Power Die.</description>
+        </rule>
+        <rule id="268b-f131-ab15-e107" name="Riled" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When this model is damaged or destroyed by an enemy attack, you gain one Power Die.</description>
+        </rule>
+        <rule id="5bc6-bef0-1cd2-53a1" name="Unearthly Rage" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When this model is in play, other allied models gain Riled.</description>
+        </rule>
+        <rule id="aa6d-85f4-14b7-7e00" name="Beat Back" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If this model hits an enemy monster with this attack, after the attack is resolved you can move the monster hit up to two spaces in a straight line in any direction. During this movement, the target monster moves through and collides with buildings, units, and hazards in its path. The target monster stops moving if it collides with another monster.</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints>
@@ -1395,13 +1445,13 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value=""/>
-            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value=""/>
-            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value=""/>
-            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value=""/>
-            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value=""/>
-            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value=""/>
-            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value=""/>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value="7 (High Mobility)"/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value="9"/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value="8+6 (Hit &amp; Run, Weapon Master)"/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value="R3 4+4"/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value="7+4"/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value="5"/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value="Combat Coordination, Flank, Reposition"/>
           </characteristics>
         </profile>
         <profile id="2785-7797-5915-3920" name="Zor-Raiden" hidden="false" profileTypeId="43e0-b127-f70f-2c38" profileTypeName="Monster">
@@ -1410,17 +1460,53 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value=""/>
-            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value=""/>
-            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value=""/>
-            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value=""/>
-            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value=""/>
-            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value=""/>
-            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value=""/>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value="7 (High Mobility)"/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value="9"/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value="8+4 (Hit &amp; Run)"/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value="-"/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value="6+4"/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value="10"/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value="Combat Coordination, Reposition"/>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
+      <rules>
+        <rule id="1773-c810-2a50-faf2" name="Flank" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Enemies within two spaces of this model have their DEF reduced by 1 against brawl attacks made by allied models, to a minimum of 1.</description>
+        </rule>
+        <rule id="31b2-3bd5-8a2c-6e6e" name="Combat Coordination" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>While this model is in play, Faction units&apos; brawl attacks gain the Hit &amp; Run special rule.</description>
+        </rule>
+        <rule id="4fdd-4883-85a6-4e89" name="Hit &amp; Run" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If this model hits a target model with this attack, immediately after the attack is resolved advance this model up to 3 spaces even if this model has already advanced this turn.</description>
+        </rule>
+        <rule id="60d6-53b9-892e-ee86" name="Weapon Master" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This attack does Super Damage.</description>
+        </rule>
+        <rule id="4389-117c-f058-62b8" name="Reposition" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If this model is hit by an attack, after the attack is resolved this model can advance up to one space in any direction.</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints>
