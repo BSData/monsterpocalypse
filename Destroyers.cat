@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="98ce-47e5-bc5a-72ce" name="Destroyers" revision="3" battleScribeVersion="2.01" gameSystemId="5077-1534-4a53-bf4e" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="98ce-47e5-bc5a-72ce" name="Destroyers" revision="4" battleScribeVersion="2.01" gameSystemId="5077-1534-4a53-bf4e" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1523,13 +1523,13 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value=""/>
-            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value=""/>
-            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value=""/>
-            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value=""/>
-            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value=""/>
-            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value=""/>
-            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value=""/>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value="7"/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value="8"/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value="6+3"/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value="R5 8+6"/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value="5+4"/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value="5"/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value="Beat Back, Devastation, High Impact, Penetrator, Return Fire"/>
           </characteristics>
         </profile>
         <profile id="6347-3ae5-ed6a-41a2" name="Rogzor" hidden="false" profileTypeId="43e0-b127-f70f-2c38" profileTypeName="Monster">
@@ -1538,17 +1538,53 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value=""/>
-            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value=""/>
-            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value=""/>
-            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value=""/>
-            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value=""/>
-            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value=""/>
-            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value=""/>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value="6"/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value="8"/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value="6+3"/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value="R5 6+4"/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value="5+3"/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value="10"/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value="Devastation, High Impact, Penetrator"/>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
+      <rules>
+        <rule id="e6d7-73ca-2012-2752" name="Penetrator" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When resolving this attack, the target suffers -1 DEF, to a minimum of 1.</description>
+        </rule>
+        <rule id="44cb-bf72-7897-ea96" name="Devastation" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If this attack hits a building, all units adjacent to the target building with a DEF equal to or less than the number of strikes rolled suffer 1 damage point as a result of this attack. When determining the DEF of adjacent models, add any bonuses to DEF against blast attacks, including cover.</description>
+        </rule>
+        <rule id="df9f-9d60-7027-1d21" name="High Impact" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>While this model is in play, Faction units gain +1 Boost Die when participating in blast attacks.</description>
+        </rule>
+        <rule id="0e32-955d-cb1d-904e" name="Return Fire" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When this model is missed by a blast attack, it can immediately make a blast attack with the dice in play.</description>
+        </rule>
+        <rule id="b0d0-4bb0-7da1-a249" name="Beat Back" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If this model hits an enemy monster with this attack, after the attack is resolved you can move the monster hit up to two spaces in a straight line in any direction. During this movement, the target monster moves through and collides with buildings, units, and hazards in its path. The target monster stops moving if it collides with another monster.</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints>
