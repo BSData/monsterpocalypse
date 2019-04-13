@@ -807,7 +807,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Defense" characteristicTypeId="122e-2c79-16cb-a501" value="7"/>
+            <characteristic name="Defense" characteristicTypeId="122e-2c79-16cb-a501" value="6"/>
             <characteristic name="Abilities" characteristicTypeId="bea6-295c-1961-177e" value="Action: Toursim Campaign, Incombustable, Spire, Vantage Point"/>
           </characteristics>
         </profile>
