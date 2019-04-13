@@ -1604,6 +1604,109 @@
       <entryLinks/>
       <costs/>
     </selectionEntry>
+    <selectionEntry id="a34e-61af-fce1-ac98" name="Hammerklak" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="0ad8-03f6-f17f-8088" name="Hammerklak (Hyper)" hidden="false" profileTypeId="43e0-b127-f70f-2c38" profileTypeName="Monster">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value="7 (High Mobility)"/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value="9"/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value="9+6 (Power Gorge)"/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value="-"/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value="9+6 (Power Gorge)"/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value="5"/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value="Action: Sprint, Crunch, Energy Cycle"/>
+          </characteristics>
+        </profile>
+        <profile id="7dcc-cd9d-5553-7342" name="Hammerklak" hidden="false" profileTypeId="43e0-b127-f70f-2c38" profileTypeName="Monster">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value="7 (High Mobility)"/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value="8"/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value="6+4"/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value="-"/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value="6+4"/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value="10"/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value="Action: Sprint, Cloak, Crunch, Side Step, Tunneler"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="c37e-1cdc-d8e0-5b88" name="Side Step" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If this model is missed by an attack, after the attack is resolved this model can advance up to three spaces.</description>
+        </rule>
+        <rule id="9983-3da8-3a08-c1c4" name="Power Gorge" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When this attack destroy and enemy model, you can an additional PD.</description>
+        </rule>
+        <rule id="0c87-839b-b4b6-43bf" name="Energy Cycle" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If you roll two or more Action Dice on an attack made by this model and the attack hits an enemy model, after the attack is resolved you can move one Action Die from your Unit Pool to your Monster Pool.</description>
+        </rule>
+        <rule id="3ca4-380d-146b-63be" name="Cloak" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model cannot be targeted by blast attacks made by a model more than two spaces away.</description>
+        </rule>
+        <rule id="697d-542c-fbc4-4e73" name="Crunch" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When you roll a super strike on an Action Die on one of this monster&apos;s attack rolls, that attack does super damage.</description>
+        </rule>
+        <rule id="21dc-e3ad-00fc-edce" name="Sprint" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>During your Monster Activations, this model can spend one Action Die to perform a Sprint action. Advance this model up to three spaces, even if it has already advanced this turn.</description>
+        </rule>
+        <rule id="e726-b082-e098-ab66" name="Tunneler" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Other allied models that begin an advance within two spaces of this model gain High Mobility during that advance.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f666-12b1-5cd7-0e0d" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="da12-9f16-9f19-ae5b" name="Monster" hidden="false" targetId="c7bf-4083-0efb-c970" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries/>
