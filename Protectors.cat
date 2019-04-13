@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e701-36ee-f329-647c" name="Protectors" revision="5" battleScribeVersion="2.01" gameSystemId="5077-1534-4a53-bf4e" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e701-36ee-f329-647c" name="Protectors" revision="6" battleScribeVersion="2.01" gameSystemId="5077-1534-4a53-bf4e" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -133,7 +133,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af61-93f6-7bad-366c" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5dfb-866e-b278-7280" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="286f-e20d-82a4-f628" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
@@ -377,7 +377,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a380-28b1-5b8e-b093" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4381-fae0-2701-3bec" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="ab2f-8dca-ad84-409d" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
@@ -414,7 +414,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3827-8b97-7432-c0e1" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d932-f39f-430e-1176" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="4f03-17fa-9402-3aad" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
@@ -466,7 +466,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbc5-ca67-a168-819d" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ca7-d72d-42f1-4c6c" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="9ed7-536e-2da0-8777" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
@@ -511,7 +511,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7050-297e-8cdd-b6d2" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11bf-1ccf-bf63-aa08" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="4021-b6c7-2138-5716" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
@@ -563,7 +563,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9dbf-ff72-73b6-e2ec" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f6c-ce30-f6da-150b" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="2b74-69b2-3b5c-8285" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
@@ -622,7 +622,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b26-cf82-49dc-8483" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59a9-84e6-d416-8759" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="2c57-8bd1-372b-c112" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
@@ -674,7 +674,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fa2-214a-8b3b-9d08" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8562-b063-f2c7-2d0d" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="4228-4926-a053-50eb" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
@@ -733,7 +733,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b81c-eeb9-1ffc-815b" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99dd-1430-be91-f817" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="4f22-250b-8350-23d0" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
@@ -792,7 +792,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ed8-c153-f8aa-3540" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="583d-d677-d7fb-5791" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="c26a-24a2-e0d6-e0ef" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
@@ -837,7 +837,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51e6-d7ad-4751-d2bb" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79ba-d793-4c6f-b660" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="2a35-c1d0-1978-4cdc" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
@@ -890,6 +890,7 @@
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6557-ec34-7a8f-be4f" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4623-5d12-cb43-e916" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="db05-cfbb-c678-e8b4" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
@@ -962,7 +963,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e54-7633-5f9a-a91f" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3ed-69b4-861f-e4d7" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="18f3-b9cc-b4d9-d961" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
@@ -1014,7 +1015,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23fe-7e24-1038-a1fa" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a82-aba2-c602-296f" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="7012-c634-f797-6801" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
@@ -1073,7 +1074,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a329-5e3a-91b0-b63f" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4da3-9cab-7465-89d0" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="28e7-44f6-461b-ac70" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
@@ -1125,7 +1126,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31eb-083e-49a5-e3b4" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61fb-a1b0-6312-3959" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="05ef-d472-1be3-32ff" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
@@ -1184,7 +1185,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ff8-a99f-adf0-5c32" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3002-1dbf-f43d-061d" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="b742-247b-4e5d-ae3e" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
@@ -1236,7 +1237,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00db-c6d5-d469-5c40" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6123-2501-d3ea-5528" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="b13d-e0ea-0df0-05fe" name="Unit" hidden="false" targetId="db2d-2824-391d-1c1a" primary="true">
