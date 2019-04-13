@@ -1527,6 +1527,116 @@
       <entryLinks/>
       <costs/>
     </selectionEntry>
+    <selectionEntry id="3f60-b221-44de-7ba0" name="Krakenoctus" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="73b2-d71e-212d-3c0c" name="Krakenoctus (Hyper)" hidden="false" profileTypeId="43e0-b127-f70f-2c38" profileTypeName="Monster">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value="5"/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value="9"/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value="9+5 (Fling)"/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value="R3 5+4 (Power Drain)"/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value="8+5"/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value="6"/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value="Grappler, Reach, Slingshot, Waterlogged, Windup"/>
+          </characteristics>
+        </profile>
+        <profile id="8569-e4d5-2eca-405b" name="Krakenoctus" hidden="false" profileTypeId="43e0-b127-f70f-2c38" profileTypeName="Monster">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="a00c-97b1-193d-9c65" value="5"/>
+            <characteristic name="Defense" characteristicTypeId="2c66-dda9-b5a5-19ba" value="9"/>
+            <characteristic name="Brawl" characteristicTypeId="be11-3711-4538-3338" value="8+4 (Fling)"/>
+            <characteristic name="Blast" characteristicTypeId="ed24-4236-bc84-6ba5" value="-"/>
+            <characteristic name="Power" characteristicTypeId="86bd-da39-8195-4106" value="7+4"/>
+            <characteristic name="HP" characteristicTypeId="4341-c675-dc1a-b6fd" value="12"/>
+            <characteristic name="Abilities" characteristicTypeId="2e5b-fca6-30ec-12f9" value="Grappler, Lightning Attack, Reach, Waterlogged"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="acdd-0568-ed54-41ee" name="Grappler" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Enemy models cannot move through this model or models adjacent to it. Enemy models are not immune to hazards adjacent to this model.</description>
+        </rule>
+        <rule id="1229-a3f3-19f4-57e1" name="Fling" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When this attack hits a unit, choose a building or enemy model within five spaces of the unit hit. Roll the dice in play. If the chosen model&apos;s DEF is equal to or less than the number of strikes rolled, it takes 1 damage point.</description>
+        </rule>
+        <rule id="a3cb-f317-5a16-731f" name="Lightning Attack" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The model can make a brawl attack in addition to any other attacks it makes during each of its activations.</description>
+        </rule>
+        <rule id="0fc6-ddd9-a8b5-bd82" name="Reach" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model can make a brawl attack targeting any model within two spaces. This model can participate in combined brawl attacks against models within two spaces.</description>
+        </rule>
+        <rule id="e907-8616-2768-1948" name="Waterlogged" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model is immune to hazards while advancing. When this model advances into a hazard, flip it to rubble side.</description>
+        </rule>
+        <rule id="6457-bf48-e500-f61b" name="Power Drain" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If this attack hits an enemy monster, the monster&apos;s controller loses one Power Die.</description>
+        </rule>
+        <rule id="9caf-20c1-1ada-4199" name="Slingshot" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Then this model performs a Swat Power Attack of used the Fling trigger, the second target can be up to seven spaces away instead of five.</description>
+        </rule>
+        <rule id="dcbe-0d5d-6a6d-6de5" name="Windup" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This monster&apos;s Swat and Throw Power Attacks do Super Damage.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7931-c985-22c0-4caf" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0f10-45d9-7fbf-469c" name="Monster" hidden="false" targetId="c7bf-4083-0efb-c970" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries/>
