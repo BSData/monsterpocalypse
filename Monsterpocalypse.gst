@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="5077-1534-4a53-bf4e" name="Monsterpocalypse" revision="4" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="5077-1534-4a53-bf4e" name="Monsterpocalypse" revision="5" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -70,9 +70,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e738-b6b8-85e5-8fa8" type="max"/>
-          </constraints>
+          <constraints/>
         </categoryLink>
         <categoryLink id="4acc-5cc3-aa7c-8c59" name="Monster" hidden="false" targetId="c7bf-4083-0efb-c970" primary="false">
           <profiles/>
@@ -89,10 +87,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d699-249e-99e9-fa31" type="max"/>
-            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb40-d785-d342-3e48" type="min"/>
-          </constraints>
+          <constraints/>
         </categoryLink>
       </categoryLinks>
     </forceEntry>
@@ -109,9 +104,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33ea-9a92-3c91-0a55" type="max"/>
-          </constraints>
+          <constraints/>
         </categoryLink>
         <categoryLink id="ed87-d5f3-1ceb-9d7f" name="Monster" hidden="false" targetId="c7bf-4083-0efb-c970" primary="false">
           <profiles/>
@@ -128,10 +121,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c455-bf37-52a2-7b78" type="max"/>
-            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ed0-566f-ffde-6584" type="min"/>
-          </constraints>
+          <constraints/>
         </categoryLink>
       </categoryLinks>
     </forceEntry>
@@ -148,9 +138,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78b7-0359-2e67-b903" type="max"/>
-          </constraints>
+          <constraints/>
         </categoryLink>
         <categoryLink id="bca2-9574-9929-52db" name="Monster" hidden="false" targetId="c7bf-4083-0efb-c970" primary="false">
           <profiles/>
@@ -167,10 +155,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93c8-7f57-b9bd-af15" type="max"/>
-            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74a6-90d7-67ed-73b8" type="min"/>
-          </constraints>
+          <constraints/>
         </categoryLink>
       </categoryLinks>
     </forceEntry>
@@ -208,7 +193,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0327-1596-f217-9ad2" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1a9-d44a-7e4e-cbb7" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="8923-0f0b-00b9-c2cd" name="Building" hidden="false" targetId="807e-04c6-33b2-9c0f" primary="true">
@@ -248,7 +233,9 @@
       </rules>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4899-6933-4067-9042" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="13b5-aa00-c4f5-69f4" name="Building" hidden="false" targetId="807e-04c6-33b2-9c0f" primary="true">
           <profiles/>
@@ -302,7 +289,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fba7-e56a-9015-4440" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fba7-e56a-9015-4440" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="e44e-264a-e20b-4931" name="Building" hidden="false" targetId="807e-04c6-33b2-9c0f" primary="true">
@@ -364,7 +351,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fa2-7145-ada9-ef45" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79c0-9c99-6323-42b9" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="2bce-744c-9499-41fb" name="Building" hidden="false" targetId="807e-04c6-33b2-9c0f" primary="true">
@@ -412,7 +399,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20d9-08bb-dc81-b7a6" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49af-d334-e25d-7ab1" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="2668-cb04-dc24-9742" name="Building" hidden="false" targetId="807e-04c6-33b2-9c0f" primary="true">
@@ -460,7 +447,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6477-2af2-424e-d29e" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="051e-e4c0-4497-5c8e" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="1237-8179-c2e4-d589" name="Building" hidden="false" targetId="807e-04c6-33b2-9c0f" primary="true">
@@ -508,7 +495,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b71-cc50-eb6a-3865" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f73-eb65-3a1c-bc46" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="4e8a-8129-586b-a368" name="Building" hidden="false" targetId="807e-04c6-33b2-9c0f" primary="true">
@@ -563,7 +550,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ee5-3fbe-08ef-a80f" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="455e-2114-26cf-5cf0" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="8bbe-e7d7-f406-ecde" name="Building" hidden="false" targetId="807e-04c6-33b2-9c0f" primary="true">
@@ -610,7 +597,9 @@
       </rules>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ef2-c1bc-3467-9ac2" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="347e-4315-5495-ee1b" name="Building" hidden="false" targetId="807e-04c6-33b2-9c0f" primary="true">
           <profiles/>
@@ -650,7 +639,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db5b-8d79-5854-7a10" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b6e-5748-9fb4-ee93" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="3481-0b74-c41c-86bb" name="Building" hidden="false" targetId="807e-04c6-33b2-9c0f" primary="true">
@@ -697,7 +686,9 @@
       </rules>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea81-7282-3ee5-f578" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="aaac-6aa9-9ed2-84b2" name="Building" hidden="false" targetId="807e-04c6-33b2-9c0f" primary="true">
           <profiles/>
@@ -737,7 +728,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c6a-0591-b151-d284" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75d1-8796-62cc-a3e3" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="b6c1-63d1-20ea-c818" name="Building" hidden="false" targetId="807e-04c6-33b2-9c0f" primary="true">
@@ -792,10 +783,161 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b7e-c252-e1b2-e5fd" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6951-f012-cee8-1170" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="9c90-67f7-f2aa-9900" name="Building" hidden="false" targetId="807e-04c6-33b2-9c0f" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="b3bf-6bfe-bbb5-2718" name="The Tokyo Tower" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="0ea7-a540-7480-c56f" name="The Tokyo Tower" hidden="false" profileTypeId="3a10-d657-fe6d-07b4" profileTypeName="Building">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Defense" characteristicTypeId="122e-2c79-16cb-a501" value="7"/>
+            <characteristic name="Abilities" characteristicTypeId="bea6-295c-1961-177e" value="Action: Toursim Campaign, Incombustable, Spire, Vantage Point"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="04ad-c749-f4db-6070" name="Vantage Point" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If you are securing this building, blast attacks made by allied units adjacent to this building ignore cover.</description>
+        </rule>
+        <rule id="27e6-77ae-45e4-1a35" name="Action: Toursim Campaign" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>During your Unit Activation, this model can spend an Action Die to perform a Tourism Campaign action. Gain one Power Die.</description>
+        </rule>
+        <rule id="f253-3b3d-723f-bb4b" name="Spire" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>A monster colliding with this building suffers +1 collision damage.</description>
+        </rule>
+        <rule id="2ee5-4bbb-c4e0-48f5" name="Incombustible" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If this building is destroyed, replace it with rubble.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="031f-b7b6-a4e9-d13d" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="f756-4429-79b8-d02d" name="Building" hidden="false" targetId="807e-04c6-33b2-9c0f" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="aabe-cfc8-a33d-dc51" name="Statue of Liberty" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="a043-4b09-e98f-3f20" name="Statue of Liberty" hidden="false" profileTypeId="3a10-d657-fe6d-07b4" profileTypeName="Building">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Defense" characteristicTypeId="122e-2c79-16cb-a501" value="6"/>
+            <characteristic name="Abilities" characteristicTypeId="bea6-295c-1961-177e" value="Incombustible, Opportunity"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d99d-50d4-e193-ece3" name="Opportunity" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If you are securing this building, you can use each Action twice during each of your turns. However, each of your models can still perform only one Action each activation.</description>
+        </rule>
+        <rule id="707b-f703-1fda-c1b7" name="Incombustible" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If this building is destroyed, replace it with rubble.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="918d-cf88-01e3-95ea" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="42f8-9ef0-4fe2-92af" name="Building" hidden="false" targetId="807e-04c6-33b2-9c0f" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="3212-ea57-2226-1d59" name="Imperial State Building" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="ca92-6baf-f16e-09b9" name="Imperial State Building" hidden="false" profileTypeId="3a10-d657-fe6d-07b4" profileTypeName="Building">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Defense" characteristicTypeId="122e-2c79-16cb-a501" value="7"/>
+            <characteristic name="Abilities" characteristicTypeId="bea6-295c-1961-177e" value="Action: City Planning"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="dc04-4f2e-00b6-2f2c" name="Action: City Planning" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>During your Monster or Unit Activation, this model and spend one Action Die to perform an Urban Renewal action. Swap the position of a building you are securing with any unsecured building on the map.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3176-4fa6-b7a6-faba" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a18b-544a-4017-766f" name="Building" hidden="false" targetId="807e-04c6-33b2-9c0f" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
